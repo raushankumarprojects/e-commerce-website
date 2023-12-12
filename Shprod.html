@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shopping Website </title>
+    <link rel="stylesheet" href="./Shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+ <section id="header">
+   
+  <a href="#"> <img src="./shopping-bag.png" alt=""height="55px",width="55px"></a>
+<h1 id="r1">RJKart</h1>
+  
+  <div>
+
+  <ul id="navbar">
+
+<li><a href="home.html">HOME</a></li>
+<li><a  class="active" href="shop.html">SHOP</a></li>
+<li><a href="blog.html">BLOG</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+<li> <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i> </a > </li>
+  
+</ul>
+</div>
+</section>
+
+<!-- <section class="banner1">
+<div> 
+<h1>#stayhome</h1>
+<h3>Save more with coupons and upto 70% off</h3>
+
+</div>
+</section> -->
+<section class="bann2">
+
+
+</section>
+
+
+<section id="prodetails">
+    
+    <div class="single-pro-image">
+
+<img src="./Product 2/kdgwr_512.webp" alt="" width="100%" id="Mainimg">
+
+
+<div class="small-image-group">
+
+<div class="small-image-cloumn">
+<img src="./Product 2/xl-bnd-20-foxhil-fashion-original-imaghkyyrttgkjvt.webp" alt="" class="small-img" width="100%">
+</div>
+
+<div class="small-image-cloumn">
+    <img src="./Product 2/l-bnd-20-foxhil-fashion-original-imaghkyydfq4dg64.webp" alt="" class="small-img" width="100%">
+    </div>
+    
+    <div class="small-image-cloumn">
+        <img src="./Product 2/m-bnd-20-foxhil-fashion-original-imaghkyycrzzhuxh.webp" alt="" class="small-img" width="100%">
+        </div>
+
+        <div class="small-image-cloumn">
+            <img src="./Product 2/kdgwr_512.webp" alt="" class="small-img" width="100%">
+            </div>
+</div>
+
+</div>
+
+
+
+<div class="single-pro-details ">
+<h6>Home/T-Shirt</h6><br>
+<h1>Men's Fashion T Shirt</h1><br>
+<h2> ₹ 499.00</h2>
+<select >
+    <option >Select Size</option>
+    <option >XL</option>
+    <option >XX-L</option>
+    <option >S</option>  
+    <option >L</option>
+
+</select>
+<input type="number" value="1">
+<button class="add-to-cart" onclick="addtocart(products)">Add To Cart </button>
+<h4>Product Details</h4>
+<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illum,
+     ut deleniti esse odit ratione doloremque nisi, 
+     veritatis facilis molestiae blanditiis iste officia similique.
+      Cupiditate dolorem quia repudiandae eveniet odio.
+</span>
+
+</div>
+</section>
+
+
+<!-- JAVAScript Codes for the image clicking -->
+
+<script>
+    var Mainimg=document.getElementById("Mainimg")
+    var Smallimg=document.getElementsByClassName("small-img")
+
+Smallimg[0].onclick = function (){
+    Mainimg.src=Smallimg[0].src;
+}
+Smallimg[1].onclick = function (){
+    Mainimg.src=Smallimg[1].src;
+}
+Smallimg[2].onclick = function (){
+    Mainimg.src=Smallimg[2].src;
+}
+Smallimg[3].onclick = function (){
+    Mainimg.src=Smallimg[3].src;
+}
+
+    
+    </script>
+
+<section id="product1">
+   
+     <!-- <h2>Featured Product</h2>
+    <p> New Modern Design </p>
+     -->
+    <div class="pro-container">
+    
+    <div class="pro" onclick="window.location.href='Shprod.html';">
+    <img src="./Product 2/kdgwr_512.webp" alt=""height="300px",width="300px">
+    
+    <div class="des">
+    <span>BoxMen</span>
+    <h5>Men Printed Round Neck Black T-Shirt</h5>
+    
+    <div class="star">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    </div>
+    
+    <h4>₹<b>400</b></h4>
+    </div>
+    <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #201f51;"></i></a>
+       </div>
+       <div class="pro">
+        <img src="./products/dzwhi_512.webp" alt=""height="300px",width="300px">
+        
+        <div class="des">
+        <span>Classy Vogue</span>
+        <h5>Men Regular Fit Striped Spread Collar Casual Shirt</h5>
+        
+        <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+        
+        <h4>₹<b>499</b></h4>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #201f51;"></i></a>
+           </div>
+           <div class="pro">
+            <img src="./products/efls4_512.webp" alt=""height="300px",width="300px">
+            
+            <div class="des">
+            <span>Imagine-art</span>
+            <h5>Men Regular Fit Printed Casual Shirt</h5>
+            
+            <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            </div>
+            
+            <h4>₹<b>311</b></h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #201f51;"></i></a>
+               </div>
+               <div class="pro">
+                <img src="./products/m-kcsh-8400-pcbl-h-s-fubar-original-imagzputz7whmwhd.webp" alt=""height="300px",width="300px">
+                
+                <div class="des">
+                <span>RekFashion</span>
+                <h5>Men Regular Fit Solid Casual Shirt</h5>
+                
+                <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                </div>
+                
+                <h4>₹<b>321</b></h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #201f51;"></i></a>
+                   </div>
+                   <div class="pro">
+                    <img src="./products/s-4151-sheetal-associates-original-imaggwrzhwwy9pyr.webp" alt=""height="300px",width="300px">
+                    
+                    <div class="des">
+                    <span>SL Associates</span>
+                    <h5>Casual Regular Sleeves Solid Women Black Top</h5>
+                    
+                    <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    </div>
+                    
+                    <h4>₹<b>399</b></h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #201f51;"></i></a>
+                       </div>
+                       <div class="pro">
+                        <img src="./products/l-top-modelo-black-dream-beauty-fashion-original-imagh8z8zzbffygj.webp" alt=""height="300px",width="300px">
+                        
+                        <div class="des">
+                        <span>db Fashion</span>
+                        <h5>Casual Regular Sleeves Solid Women Black Top</h5>
+                        
+                        <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        </div>
+                        
+                        <h4>₹<b>599</b></h4>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #201f51;"></i></a>
+                           </div>       
+                           <div class="pro">
+                            <img src="./products/xl-top-pink-rose-dream-beauty-fashion-original-imaghkam3ysgrs9q.webp" alt=""height="300px",width="300px">
+                            
+                            <div class="des">
+                            <span>db Fashion</span>
+                            <h5>Casual Puff Sleeves Floral Print Women Multicolor Top</h5>
+                            
+                            <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            </div>
+                            
+                            <h4>₹<b>499</b></h4>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #201f51;"></i></a>
+                               </div>   
+                               <div class="pro">
+                                <img src="./products/s-cf-112-top-classy-fashion-original-imagfzeytb3mzz8s.webp" alt=""height="300px",width="300px">
+                                
+                                <div class="des">
+                                <span>Classy fash</span>
+                                <h5>Casual Cap Sleeves Floral Print Women Light Green Top</h5>
+                                
+                                <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                </div>
+                                
+                                <h4>₹<b>450</b></h4>
+                                </div>
+                                <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #201f51;"></i></a>
+                                   </div>
+      
+       
+       
+            </div>
+       
+       </section>
+
+
+
+
+
+ <section id="banner5">
+
+   <div class="f1">  
+<div class="l1">
+<h1>Sign Up For Newsletters </h1>
+<h5>Get an Email updates about our latest shop and <b>special offers</b> </h5>
+</div>
+
+
+<div class="n2">
+   <input type="text" placeholder="Your email address">
+   <button> SignUp</button>
+    </div>
+  </div> 
+
+</section> 
+
+
+
+
+
+
+<section id="banner6">
+<div class="w1">
+<img src="./shopping-bag.png" alt=""height="60px",width="60px">
+<h1>RJKart</h1>
+<div id="p1">
+<h3>contact :</h3>
+<h4>Address: Lorem ipsum dolor sit amet, consectetur </h4>
+<h4>Phone No. : *2398493923088*</h4>
+<h4>Email : rjkartofficials99@gmail.com</h4><br>
+<h3>Follow us : 
+ <i class="fa-brands fa-facebook"></i>
+ <i class="fa-brands fa-twitter"></i>
+ <i class="fa-brands fa-youtube"></i>
+ <i class="fa-brands fa-pinterest"></i>
+</h3>
+</div>
+
+</div>
+<div class="w2">
+
+   <h3>About</h3><br>
+    <h5>About us</h5>
+    <h5>Delivery information</h5>
+    <h5>Private & Privacy</h5>
+    <h5>Term & Condintion</h5>
+    <h5>Contac Us</h5>
+
+</div>
+<div class="w3">
+<h3> My Account</h3><br>
+<h5>Sign In</h5>
+<h5>View Kart</h5>
+<h5>My Wishlist</h5>
+<h5>Track My Order</h5>
+<h5>Help</h5>
+
+
+</div>
+<div class="w4">
+<h3>Install App</h3><br>
+<h5> From AppStore & GooglePlay</h5><br>
+
+<button class="b1"><i class="fa-brands fa-apple"> <span>  Download on the </span> <h6>App store</h6>  </i></button>
+<button class="b2"> <i class="fa-brands fa-google-play"></i><span> Google Playstore </span></button>
+<br>
+<br><br><h5> <b> Secure Payment Get Aways : </b></h5><br>
+
+<img src="./Paytm_Logo.jpg" alt="" height="35px",width="25px">
+<img src="./pngimg.com - mastercard_PNG14.png" alt="" height="35px",width="25px">
+<img src="./06cd1a3c_rupay-logo.png" alt="" height="35px",width="25px">
+<img src="./karta-visa-polish-blog-hero-800x450.png" alt=""height="35px",width="25px">
+
+<br>
+<br> <h2> </h2>
+
+</div>
+
+</section>
+   <script src="./Product.js"></script>
+</body>
+</html>
